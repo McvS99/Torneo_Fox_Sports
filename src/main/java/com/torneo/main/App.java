@@ -151,7 +151,7 @@ public class App {
 			
 			for (int j = 0; j < torne1.getEquipos().size(); j++) {
 				
-				System.out.println(torne1.getEquipos().get(i).getNombre() +" " + torne1.getEquipos().size() + " jugadores" + "\n");
+				System.out.println(torne1.getEquipos().get(i).getNombre() + "\n");
 				System.out.println("Arqueros: " + torne1.getEquipos().get(j).verJugadoresPorPosicion("Portero"));
 				System.out.println("Laterales Izquierdos: " + torne1.getEquipos().get(j).verJugadoresPorPosicion("Lateral Izquierdo"));
 				System.out.println("Defensas: " + torne1.getEquipos().get(j).verJugadoresPorPosicion("Defensa"));
