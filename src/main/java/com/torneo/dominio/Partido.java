@@ -23,7 +23,8 @@ public class Partido {
 			equipoLocal.agregarPuntos((byte) 1);
 			equipoVisitante.agregarPuntos((byte) 1);
 			this.ganador = null;
-		} else {
+		}
+		if (resultado > 67 && resultado <= 100){
 			equipoVisitante.agregarPuntos((byte) 3);
 			this.ganador = equipoVisitante;
 			this.perdedor = equipoLocal;
